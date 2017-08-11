@@ -8,7 +8,7 @@ var author;
     
     function getNewQuote() {
         $.ajax({
-           url: 'http://api.forismatic.com/api/1.0/',
+           url: 'https://api.forismatic.com/api/1.0/',
            jsonp: 'jsonp',
            dataType: 'jsonp',
            data: {
